@@ -15,6 +15,7 @@ user name = _vsduser_, password = _vsdiat_
 <summary>Assignment 1 - counter</summary>
 <br>
 In this assignment, a counter is designed in C. The counter counts from 0-15 every 0.5s.
+
 1. The counter is compiled with an online compiler: [Compiler Explorer](https://godbolt.org/)
 2. Any of the compilers can be chosen, for eg: _RISC-V 32-bit GCC_
 3. Assembly equivalent of the program can be observed:
