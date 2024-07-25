@@ -85,7 +85,7 @@ int main()
 
     // Print execution time
     pgm_time = ((end_time - start_time)*1000000.0)/CLOCKS_PER_SEC ;
-    printf("Total time taken = %dus\n", pgm_time);
+    printf("Total time taken = %ldus\n", pgm_time);
 
 	return 0;
 }
