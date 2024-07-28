@@ -12,12 +12,12 @@ user name = _vsduser_, password = _vsdiat_
 ### Assignment 1 - counter
 In this assignment, a counter is designed in C. The counter counts from 0-15 every 0.5s.
 
-1. The counter is compiled with an online compiler: [Compiler Explorer](https://godbolt.org/)
+1. The counter _counter.c_ is compiled with an online compiler: [Compiler Explorer](https://godbolt.org/)
 2. Any of the compilers can be chosen, for eg: _RISC-V 32-bit GCC_
 3. Assembly equivalent of the program can be observed:
 ![Assignment 1 compile](https://github.com/iammituraj/vsd_hdp_chipcron/blob/main/week_0/support_files/assg1_compile.png)
 
 ### Assignment 2 - matrix multiplication
 In this assignment, a program to multiply two matrices is designed in C.
-1. The program is compiled and outputs are observed:
+1. The program _matrix_mult.c_ is compiled and outputs are observed:
 ![Assignment 2 compile](https://github.com/iammituraj/vsd_hdp_chipcron/blob/main/week_0/support_files/assg2_compile.png)
