@@ -2,7 +2,7 @@
 
 ### Assignment 1 - Binary arithmetic
 Understanding of sign-magnitude, 1s, 2s complement binary arithmetic. Some solved examples are here:
-![Assignment 1](https://github.com/iammituraj/vsd_hdp_chipcron/blob/main/week_1/binary_arithmetic.md)
+[Assignment 1](https://github.com/iammituraj/vsd_hdp_chipcron/blob/main/week_1/binary_arithmetic.md)
 
 ### Assignment 2 - ALU in System Verilog
 In this assignment, an ALU is designed in C. The ALU supports addition, substraction, multiplication, and division.
