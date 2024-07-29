@@ -38,7 +38,7 @@ module tb_alu;
       #10 ;
 
       // Test Subtraction
-      dut_a = 8'h0F; dut_b = 8'h01; dut_op = 3'b001 ;
+      dut_a = 8'h02; dut_b = 8'h03; dut_op = 3'b001 ;
       #10 ;
 
       // Test Logical AND

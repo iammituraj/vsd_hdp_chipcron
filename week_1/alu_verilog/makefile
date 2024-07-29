@@ -15,15 +15,17 @@ VVP = example
 compile:
 	@echo "| INFO: Compiling all source files..."
 	iverilog -o $(SIM_DIR)/$(VVP).vvp *.v
-	cp *.vcd $(SIM_DIR)
 
 sim:
-	@echo "| INFO: Launching simulation with GTKWave..."
-	vvp sim/$(VVP).vvp
+	@echo "| INFO: Launching simulation..."
+	vvp $(SIM_DIR)/$(VVP).vvp
+	@mv *.vcd $(SIM_DIR)
+
+runall: compile sim
 
 clean:
 	@rm -rf $(SIM_DIR)/*
-	@rm *.vcd
+	@rm -rf *.vcd
 	echo "| INFO: Cleaned sim directory!"
 
-.PHONY: compile sim clean
+.PHONY: compile sim runall clean
