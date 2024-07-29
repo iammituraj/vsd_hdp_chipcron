@@ -19,7 +19,7 @@ gcc -o alu alu.c  // Compiles, links, and generates an executable file "alu" fro
 
 ### Assignment 3 - ALU in Verilog
 In this assignment, an ALU is designed in Verilog. The ALU supports addition, substraction, AND, OR, XOR, NOT, logical right shift, logical left shift.
-The module _alu.v_ is compiled with iverilog along with the testbench tb_alu.v to test the features. 
+The module _alu.v_ is compiled with iverilog along with the testbench _tb_alu.v_ to test the features. 
 The simulation waveform is dumped by TB in VCD file, which can be opened with GTKWave. The simulation outputs are then verified.
 
 ![Assignment 3](https://github.com/iammituraj/vsd_hdp_chipcron/blob/main/week_1/support_files/alu_v_sim.png)
